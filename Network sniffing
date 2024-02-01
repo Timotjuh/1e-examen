@@ -1,0 +1,26 @@
+Gebruik van Netwerk Sniffing Tools:
+
+Installatie van Sniffing Software:
+
+Installeer een netwerk sniffing tool zoals Wireshark op een geschikte computer binnen je netwerk.
+Netwerkinterface Selectie:
+
+Kies de juiste netwerkinterface waarmee je het netwerkverkeer wilt vastleggen. Dit kan de Ethernet-interface van de computer zijn of een draadloze adapter voor het vastleggen van draadloos verkeer.
+Capture Filters Instellen:
+
+Configureer capture filters om specifiek netwerkverkeer te selecteren voor analyse. Je kunt filters gebruiken op basis van bron- en bestemmings-IP-adressen, poorten, protocols, of andere criteria om relevante gegevens vast te leggen.
+Start de Capture:
+
+Start de capture sessie in de netwerk sniffing software om netwerkverkeer in real-time vast te leggen. Wireshark zal beginnen met het vastleggen van alle gegevens die door de geselecteerde netwerkinterface passeren.
+Analyse van Netwerkverkeer:
+
+Analyseer het vastgelegde netwerkverkeer in Wireshark om potentiële kwetsbaarheden of lekken van gevoelige informatie te identificeren. Zoek naar onversleutelde inloggegevens, gevoelige data zoals creditcardnummers of persoonlijke informatie, en andere verdachte activiteiten.
+Filteren en Markereren:
+
+Gebruik filtermogelijkheden binnen Wireshark om specifieke soorten verkeer te isoleren en te analyseren. Markeer verdachte patronen of activiteiten voor nader onderzoek en correlatie met mogelijke beveiligingsincidenten.
+Rapportage en Documentatie:
+
+Documenteer je bevindingen en maak rapporten op van de geanalyseerde netwerkverkeersgegevens. Beschrijf gedetailleerd eventuele kwetsbaarheden of bedreigingen die zijn geïdentificeerd en stel aanbevelingen voor verbetering voor.
+Maatregelen Implementeren:
+
+Neem passende maatregelen om kwetsbaarheden of lekken van gevoelige informatie aan te pakken die zijn geïdentificeerd tijdens de netwerkanalyse. Dit kan het implementeren van versleuteling, het bijwerken van beveiligingsinstellingen, of het aanpassen van netwerkconfiguraties omvatten.
