@@ -1,0 +1,32 @@
+Beoordeling van de Fysieke Beveiliging van de VM-Host:
+
+Locatie van de VM-host:
+
+Identificeer de locatie van de VM-host in het datacenter of de serverruimte. Zorg ervoor dat de locatie goed beveiligd is en alleen toegankelijk is voor geautoriseerd personeel.
+Toegangscontrole:
+
+Implementeer strikte toegangscontrolemaatregelen voor de ruimte waar de VM-host zich bevindt. Gebruik toegangskaarten, biometrische identificatie of pincodebeveiliging om ongeautoriseerde toegang te voorkomen.
+Fysieke Sloten en Beugels:
+
+Controleer of de VM-host is voorzien van fysieke sloten en beugels om te voorkomen dat onbevoegden fysieke toegang krijgen tot de serverbehuizing. Zorg ervoor dat de sloten van hoge kwaliteit zijn en niet gemakkelijk kunnen worden geforceerd.
+Beveiliging van Kabels en Poorten:
+
+Zorg ervoor dat alle kabels en poorten op de VM-host stevig zijn bevestigd en zijn beveiligd tegen manipulatie of sabotage. Gebruik kabelsloten en poortblokkeringen om te voorkomen dat kabels worden losgekoppeld of dat ongeautoriseerde apparaten worden aangesloten.
+Surveillance en Bewaking:
+
+Installeer videobewakingscamera's en bewakingsapparatuur in de ruimte waar de VM-host is gehuisvest. Zorg voor 24/7 bewaking en bewaking van de fysieke omgeving om verdachte activiteiten of inbreuken onmiddellijk te detecteren en te rapporteren.
+Brand- en Inbraakbeveiliging:
+
+Implementeer brand- en inbraakbeveiligingssystemen in het datacenter of de serverruimte om de VM-host te beschermen tegen brand, diefstal en andere noodsituaties. Installeer rookmelders, brandblussers en inbraakalarmen volgens de geldende veiligheidsvoorschriften.
+Klimaatbeheersing:
+
+Zorg voor adequate klimaatbeheersing en luchtstroom in de ruimte waar de VM-host is geïnstalleerd om optimale operationele omstandigheden te garanderen. Controleer regelmatig de temperatuur en vochtigheid om oververhitting en hardwarestoringen te voorkomen.
+Beveiliging van Externe Toegang:
+
+Beperk externe toegang tot de VM-host via externe poorten, consoleverbindingen en beheertools. Gebruik veilige VPN-verbindingen, tweefactorauthenticatie en sterke wachtwoorden om de integriteit van externe toegangskanalen te waarborgen.
+Documentatie en Audits:
+
+Documenteer alle beveiligingsmaatregelen en procedures met betrekking tot de fysieke beveiliging van de VM-host. Voer regelmatig beveiligingsaudits en controles uit om naleving van de beveiligingsrichtlijnen te waarborgen en potentiële kwetsbaarheden te identificeren.
+Training en Bewustwording:
+
+Train en informeer medewerkers en beheerders over het belang van fysieke beveiliging en de rol die ze spelen bij het handhaven van een veilige werkomgeving. Stimuleer een cultuur van veiligheid en compliance binnen de organisatie.
