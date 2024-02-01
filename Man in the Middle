@@ -1,0 +1,38 @@
+Beoordeling van het Netwerk op Kwetsbaarheden voor Man-in-the-Middle (MitM) Aanvallen:
+
+Identificeer Netwerktoegangspunten:
+
+Identificeer alle toegangspunten tot het netwerk, inclusief bedrade en draadloze verbindingen, VPN-toegang, externe bureaubladservices, en extern toegankelijke services zoals webservers en e-mailgateways.
+Beoordeling van Netwerkarchitectuur:
+
+Beoordeel de netwerkarchitectuur en topologie om potentiële kwetsbaarheidspunten te identificeren waar aanvallers netwerkverkeer kunnen onderscheppen of manipuleren. Beoordeel de segmentatie, routering, en switching-configuraties op beveiligingszwaktes.
+Beveilig Draadloze Netwerken:
+
+Beveilig draadloze netwerken door sterke versleutelingsprotocollen zoals WPA2 of WPA3 te implementeren, onveilige protocollen zoals WEP uit te schakelen, en sterke vooraf gedeelde sleutels (PSK's) of enterprise authenticatiemethoden te gebruiken.
+Implementeer Authenticatie op Basis van Certificaten:
+
+Implementeer op certificaten gebaseerde authenticatiemechanismen, zoals SSL/TLS-certificaten, om de identiteit van servers en clients te verifiëren en te voorkomen dat ongeautoriseerde apparaten verbinding maken met het netwerk.
+Gebruik Veilige Protocollen:
+
+Gebruik veilige communicatieprotocollen zoals HTTPS, SSH, en VPN's om gevoelige gegevens die over het netwerk worden verzonden, te versleutelen. Vermijd plaintext-protocollen zoals HTTP, Telnet, en FTP, die vatbaar zijn voor onderschepping.
+Monitor Netwerkverkeer:
+
+Monitor netwerkverkeer met behulp van indringerdetectiesystemen (IDS), indringerpreventiesystemen (IPS), en netwerkmonitoringtools om afwijkend gedrag en tekenen van MitM-aanvallen te detecteren. Analyseer packet captures en logs op verdachte activiteiten.
+Implementeer DNS-beveiligingsmechanismen:
+
+Implementeer DNS Security Extensions (DNSSEC) en DNS over HTTPS (DoH) om te beschermen tegen DNS-spoofing en manipulatieaanvallen. Gebruik betrouwbare DNS-resolvers en autoritatieve DNS-servers om het risico van DNS-gerelateerde kwetsbaarheden te minimaliseren.
+Versleutel End-to-End Communicatie:
+
+Versleutel end-to-end communicatie tussen clients en servers om onderschepping en manipulatie door tussenpersonen te voorkomen. Gebruik sterke versleutelingsalgoritmen en beveiligde sleutelbeheerpraktijken om gevoelige gegevens tijdens het transport te beschermen.
+Implementeer Netwerksegmentatie:
+
+Implementeer netwerksegmentatie om gevoelige assets te isoleren en communicatie tussen verschillende netwerksegmenten te beperken. Gebruik firewalls, VLAN's, en toegangscontrolelijsten (ACL's) om segmentatie af te dwingen en de verkeersstroom te beheren.
+Patch en Update Netwerkapparaten:
+
+Houd netwerkapparaten zoals routers, switches, firewalls, en toegangspunten up-to-date met de nieuwste beveiligingspatches en firmware-updates. Controleer regelmatig vendor advisories en security bulletins voor bekende kwetsbaarheden.
+Educatie van Gebruikers en Beheerders:
+
+Educeer gebruikers en netwerkbeheerders over de risico's van MitM-aanvallen en het belang van veilige netwerkpraktijken. Train gebruikers om phishing e-mails, verdachte websites, en onbetrouwbare netwerkverbindingen te herkennen.
+Voer Penetratietests Uit:
+
+Voer regelmatig penetratietests en kwetsbaarheidsbeoordelingen uit om zwakke punten in netwerkbeveiligingscontroles te identificeren en de effectiviteit van mitigatiemaatregelen tegen MitM-aanvallen te valideren.
