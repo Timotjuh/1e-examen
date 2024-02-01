@@ -1,0 +1,20 @@
+Identificeren en Sluiten van Open Poorten:
+
+Poortscans uitvoeren:
+
+Gebruik poortscanners zoals Nmap of Masscan om een inventarisatie te maken van alle open poorten op een specifiek systeem of netwerk.
+Analyseer poortdiensten:
+
+Onderzoek welke services en applicaties verbonden zijn met de open poorten. Identificeer of deze services essentieel zijn voor de werking van het systeem of dat ze mogelijk onnodig zijn.
+Sluit ongebruikte poorten:
+
+Schakel onnodige poorten uit die niet nodig zijn voor de normale werking van het systeem. Dit kan gedaan worden door de configuratie van firewalls, routers, en andere netwerkapparaten aan te passen.
+Beperk toegang tot essentiële poorten:
+
+Beperk de toegang tot essentiële poorten door alleen verkeer van geautoriseerde bronnen toe te staan. Configureer firewalls en netwerkbeveiligingsregels om alleen het vereiste verkeer toe te staan en al het andere te blokkeren.
+Regelmatige controle en onderhoud:
+
+Voer regelmatig poortscans uit en houd de lijst van open poorten up-to-date. Zorg ervoor dat nieuwe services of applicaties die open poorten openen, grondig worden beoordeeld voordat ze in productie worden genomen.
+Implementeer beveiligingstools:
+
+Gebruik beveiligingstools zoals intrusion detection systems (IDS) en intrusion prevention systems (IPS) om verdachte activiteiten op open poorten te detecteren en te voorkomen.
