@@ -1,0 +1,32 @@
+Ensuring Default Account and Settings Security:
+
+Identificeer Standaard Accounts en Instellingen:
+
+Identificeer alle standaard accounts, wachtwoorden en instellingen die vaak voorkomen in servers, applicaties, databases en netwerkapparaten. Dit omvat standaard gebruikersnamen zoals "admin" of "root", standaard wachtwoorden en standaard configuraties.
+Verander Standaard Wachtwoorden:
+
+Verander onmiddellijk standaard wachtwoorden voor alle accounts en systemen naar unieke, sterke wachtwoorden die voldoen aan de eisen voor wachtwoordcomplexiteit. Gebruik een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens voor verhoogde beveiliging.
+Schakel Ongebruikte Standaard Accounts uit:
+
+Schakel standaard accounts uit die niet nodig zijn voor systeemwerking of administratieve doeleinden. Verwijder of deactiveer accounts zoals "gast", "demo" of "test" om ongeautoriseerde toegang te voorkomen en het aanvalsoppervlak te verkleinen.
+Implementeer Account Lockout Beleid:
+
+Implementeer account lockout beleid om brute-force aanvallen en ongeautoriseerde toegangspogingen op gebruikersaccounts te voorkomen. Configureer instellingen zoals maximale inlogpogingen, lockout duur en account ontgrendel procedures om de beveiliging te verbeteren.
+Beveilig Externe Toegang:
+
+Beveilig externe toegangsmechanismen zoals SSH, RDP en VPN's door standaard accounts uit te schakelen en sterke authenticatiemethoden zoals multi-factor authenticatie (MFA) af te dwingen. Beperk externe toegangsprivileges alleen tot geautoriseerde gebruikers en apparaten.
+Controleer Privileged Accounts:
+
+Controleer en auditeer privileged accounts, inclusief beheerder, root en superuser accounts, om ervoor te zorgen dat standaardinstellingen zijn gewijzigd en toegang beperkt is tot geautoriseerd personeel. Implementeer het principe van minste privilege om het risico van ongeautoriseerde toegang te minimaliseren.
+Update Firmware en Software:
+
+Update regelmatig firmware, besturingssystemen en softwareapplicaties om ervoor te zorgen dat standaardinstellingen zijn gepatcht en bijgewerkt met de nieuwste beveiligingsupdates. Pas beveiligingsupdates en patches tijdig toe om kwetsbaarheden geassocieerd met standaardconfiguraties te verminderen.
+Documentatie en Training:
+
+Documenteer wijzigingen in standaard accounts en instellingen in configuratiebeheer databases (CMDB's) of asset inventarisaties. Bied training en bewustwordingsprogramma's aan systeembeheerders en gebruikers over het belang van het wijzigen van standaardinstellingen en het behouden van sterke wachtwoorden.
+Automatiseer Configuratiebeheer:
+
+Implementeer geautomatiseerde configuratiebeheertools en scripts om beveiligingsbeleid af te dwingen, naleving te controleren en afwijkingen van baselinconfiguraties te detecteren. Gebruik automatisering om het proces van het wijzigen van standaardinstellingen en het behouden van beveiligde configuraties te stroomlijnen.
+Regelmatige Audits en Beoordelingen:
+
+Voer regelmatig audits en beoordelingen uit van systeemconfiguraties, toegangscontroles en accountinstellingen om doorlopend te voldoen aan beveiligingsbest practices. Voer periodieke beveiligingsbeoordelingen en penetratietests uit om potentiële kwetsbaarheden en zwakke punten te identificeren.
