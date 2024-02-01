@@ -1,0 +1,23 @@
+Testen op SQL Injection Kwetsbaarheden:
+
+Identificeer Invoervelden:
+
+Identificeer alle invoervelden op webapplicaties of andere interfaces die interactie hebben met de database. Dit kunnen formulieren, zoekvelden, URL-queryparameters, of andere invoermechanismen zijn.
+SQL Injection Payloads:
+
+Gebruik SQL injection payloads om te testen of invoervelden kwetsbaar zijn voor SQL-injectieaanvallen. Deze payloads kunnen SQL-opdrachten bevatten die bedoeld zijn om de database-instructies te manipuleren en gevoelige informatie bloot te leggen.
+Input Validatie:
+
+Controleer of input validatie correct is geïmplementeerd op alle invoervelden. Input validatie helpt bij het voorkomen van ongewenste invoer, maar mag niet de enige verdedigingsmaatregel zijn tegen SQL-injectieaanvallen.
+Gebruik Parameterized Queries:
+
+Gebruik parameterized queries of prepared statements bij het uitvoeren van databasequery's. Dit voorkomt dat invoergegevens direct worden samengevoegd met SQL-query's, waardoor SQL-injectieaanvallen worden voorkomen.
+Error Handling:
+
+Let op foutmeldingen die worden gegenereerd bij het uitvoeren van SQL-query's. Onbedoelde foutmeldingen kunnen aanvallers informatie verschaffen over de database-structuur en helpen bij het identificeren van kwetsbaarheden.
+Gebruik Security Tools:
+
+Maak gebruik van geautomatiseerde SQL injection vulnerability scanning tools om webapplicaties en databases te scannen op bekende SQL-injectiekwetsbaarheden. Dergelijke tools kunnen helpen bij het identificeren van potentiële kwetsbaarheden en het genereren van rapporten voor verdere analyse.
+Penetratietesten:
+
+Voer penetratietesten uit op webapplicaties en databases om actief SQL-injectieaanvallen te simuleren en de effectiviteit van beveiligingsmaatregelen te beoordelen. Penetratietesten bieden inzicht in de daadwerkelijke kwetsbaarheden en helpen bij het identificeren van potentiële beveiligingsrisico's.
