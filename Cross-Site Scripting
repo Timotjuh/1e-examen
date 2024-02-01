@@ -1,0 +1,26 @@
+Controleren op Cross-Site Scripting (XSS) Kwetsbaarheden:
+
+Identificeer Invoerpunten:
+
+Identificeer alle invoerpunten binnen de webapplicatie waar gebruikersgegevens worden geaccepteerd en weergegeven op de pagina. Dit omvat invoervelden, URL-queryparameters, cookies, HTTP-headers en verborgen velden.
+Input Validatie:
+
+Implementeer strikte input validatie om ervoor te zorgen dat gebruikersinvoer correct wordt gesanctioneerd voordat deze wordt weergegeven op de webpagina. Filter invoer op basis van toegestane tekens en formateer gegevens volgens de verwachte indeling.
+Escape Output:
+
+Gebruik contextafhankelijke escape-technieken om uitvoer te coderen voordat deze wordt weergegeven in HTML, JavaScript, CSS en andere contexten. Dit voorkomt dat kwaadwillige scripts worden uitgevoerd door browsers.
+Content Security Policy (CSP):
+
+Implementeer een Content Security Policy (CSP) om de uitvoering van ongeautoriseerde scripts te beperken en de bronnen te beperken waartoe een webpagina toegang heeft. Gebruik CSP-directives om XSS-aanvallen te voorkomen door het beperken van scriptbronnen, inline scripts en eval-gebruik.
+Gebruik Veilige API's:
+
+Maak gebruik van veilige API's voor dynamische contentcreatie, zoals DOM manipulation methods en template engines. Gebruik framework-specifieke XSS-preventiemechanismen om kwetsbaarheden te verminderen.
+Browser XSS-filters:
+
+Vertrouw niet volledig op browser XSS-filters, omdat deze niet altijd betrouwbaar zijn en mogelijk niet alle XSS-aanvallen kunnen voorkomen. Het implementeren van andere beveiligingsmaatregelen blijft essentieel.
+Geautomatiseerde Scans:
+
+Voer geautomatiseerde XSS-scans uit met behulp van gespecialiseerde tools zoals OWASP ZAP, Burp Suite en Acunetix. Deze tools kunnen helpen bij het identificeren van potentiële XSS-kwetsbaarheden en het genereren van rapporten voor verdere analyse.
+Penetratietesten:
+
+Voer penetratietesten uit op de webapplicatie om actief XSS-aanvallen te simuleren en de effectiviteit van beveiligingsmaatregelen te evalueren. Penetratietesten bieden inzicht in de daadwerkelijke kwetsbaarheden en helpen bij het identificeren van potentiële beveiligingsrisico's.
