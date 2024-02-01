@@ -1,0 +1,27 @@
+Logging en Monitoring:
+
+Logbeleid opstellen:
+
+Definieer een logbeleid dat de vereisten en procedures voor logging binnen het systeem of de omgeving beschrijft. Bepaal welke gebeurtenissen gelogd moeten worden, inclusief gebruikersactiviteiten, systeemgebeurtenissen, netwerkactiviteit en beveiligingsgebeurtenissen.
+Logniveaus definiëren:
+
+Definieer verschillende logniveaus (bijv. kritiek, fout, waarschuwing, informatie, debug) om de ernst en relevantie van gelogde gebeurtenissen aan te geven. Zorg ervoor dat logniveaus consistent worden toegepast en begrepen door alle belanghebbenden.
+Loggingconfiguratie instellen:
+
+Configureer logging op alle relevante systemen, applicaties en netwerkapparaten om activiteiten en gebeurtenissen vast te leggen die van belang zijn voor beveiligingsmonitoring en incidentrespons. Stel logrotatie-instellingen in om de logbestanden te beheren en opslagruimte te optimaliseren.
+Centrale logopslag implementeren:
+
+Implementeer een centraal logopslagsysteem of SIEM (Security Information and Event Management) platform om loggegevens van meerdere bronnen te verzamelen, te normaliseren en te analyseren. Zorg voor redundante opslag en back-up van loggegevens om gegevensverlies te voorkomen.
+Geautomatiseerde waarschuwingen instellen:
+
+Stel geautomatiseerde waarschuwingen en meldingen in voor kritieke beveiligingsgebeurtenissen en afwijkend gedrag. Gebruik thresholds en anomaliedetectie om potentiële bedreigingen te identificeren en proactief te reageren op verdachte activiteiten.
+Continu bewaking en analyse:
+
+Voer continu bewaking en analyse uit van loggegevens om patronen, trends en afwijkingen te identificeren die kunnen wijzen op beveiligingsincidenten of kwetsbaarheden. Gebruik geavanceerde analyse- en correlatietechnieken om verbanden te leggen tussen verschillende gebeurtenissen en dreigingen te detecteren.
+Incidentrespons en forensisch onderzoek:
+
+Ontwikkel procedures en workflows voor incidentrespons en forensisch onderzoek op basis van loggegevens en meldingen. Definieer rollen en verantwoordelijkheden voor het reageren op incidenten en het verzamelen van forensische bewijzen om de impact van beveiligingsincidenten te minimaliseren.
+Periodieke evaluatie en bijwerking:
+
+Evalueer regelmatig de effectiviteit van logging en monitoring tegen de evoluerende bedreigingslandschap. Pas loggingconfiguraties en alarmeringsregels aan op basis van nieuwe beveiligingsinzichten, kwetsbaarheden en compliance-eisen.
+Door logging en monitoring op een systematische manier te implementeren en te onderhouden, kunnen organisaties de detectie van beveiligingsincidenten verbeteren, de reactietijd verkorten en de impact van bedreigingen op hun systemen en gegevens minimaliseren.
