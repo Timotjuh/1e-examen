@@ -1,0 +1,29 @@
+Searching for File Inclusion Vulnerabilities:
+
+Identify Input Points:
+
+Identify all input points within the web application where file paths or file names are accepted, including parameters in URLs, user inputs in forms, and input fields in cookies or headers.
+Test for Local File Inclusion (LFI):
+
+Test for Local File Inclusion vulnerabilities by manipulating input parameters to include local files that should not be accessible to users. Attempt to include sensitive system files, configuration files, or application files.
+Test for Remote File Inclusion (RFI):
+
+Test for Remote File Inclusion vulnerabilities by manipulating input parameters to include remote files hosted on external servers. Attempt to include malicious scripts or files hosted on remote servers that may execute arbitrary code on the server.
+Input Validation and Sanitization:
+
+Implement strict input validation and sanitization to ensure that user-supplied input is properly validated and sanitized before being used to include files. Validate file paths and restrict access to allowed directories only.
+File Whitelisting:
+
+Implement file whitelisting mechanisms to specify a list of allowed files or directories that can be included by the application. Restrict access to known and trusted files while blocking access to sensitive or unauthorized files.
+Secure Configuration:
+
+Ensure that web server configurations and file permissions are properly configured to prevent unauthorized access to sensitive files and directories. Use proper file permissions and directory access controls to restrict access to critical system files.
+Web Application Firewall (WAF):
+
+Deploy a web application firewall (WAF) to monitor and filter incoming requests for known file inclusion attack patterns. Configure the WAF to block requests that attempt to include unauthorized or suspicious files.
+Code Review and Vulnerability Scanning:
+
+Conduct regular code reviews and vulnerability scanning of the web application codebase to identify and remediate potential file inclusion vulnerabilities. Use automated scanning tools and manual code review techniques to identify insecure file inclusion practices.
+Patch and Update Dependencies:
+
+Keep web application frameworks, libraries, and dependencies up to date with the latest security patches and updates. Patch known vulnerabilities in third-party components that may introduce file inclusion vulnerabilities into the application.
